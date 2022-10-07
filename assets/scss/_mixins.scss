@@ -1,0 +1,11 @@
+@mixin darkMode($isDark: true) {
+    @if($isDark) {
+        background-color: black;
+        color: white;
+    
+        
+    } @else {
+        background-color: $light;
+        color: black;
+    }
+}

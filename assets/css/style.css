@@ -10813,3 +10813,18 @@ h5, .h5 {
   position: absolute;
   left: 130px;
 }
+
+#sun {
+  position: absolute;
+  right: 95px;
+}
+
+.dark--theme {
+  background-color: black;
+  color: white;
+}
+
+.light--theme {
+  background-color: #FFE6AA;
+  color: black;
+}

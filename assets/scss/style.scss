@@ -1,4 +1,5 @@
-@import "../scss/variables";
+@import "./variables";
+@import "./mixins";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
@@ -34,4 +35,14 @@ h5 {
     width: 50px;
     position: absolute;
     left: 130px;
+}
+#sun {
+    position: absolute;
+    right: 95px;
+}
+.dark--theme {
+    @include darkMode(true)
+}
+.light--theme {
+    @include darkMode(false)
 }

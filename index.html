@@ -9,116 +9,128 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light position-sticky top-0">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-2 text-black" href="#">Navbar</a>
-        <img id="logo" src="./assets/img/honeycomb.png" alt="logo" />
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item fs-5">
-              <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item fs-5">
-              <a class="nav-link text-black" href="#">Features</a>
-            </li>
-            <li class="nav-item fs-5">
-              <a class="nav-link text-black" href="#"><i class="bi bi-facebook"></i></a>
-            </li>
-            <li class="nav-item fs-5">
-              <a class="nav-link text-black" href="#"><i class="bi bi-instagram"></i></a>
-            </li>
-            <li class="nav-item fs-5">
-              <a class="nav-link text-black" href="#"><i class="bi bi-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <hr class="container" />
-    <div class="container bg-light p-5 rounded-3">
-      <h1 class="fs-1 fw-bold">Custom jumbotron</h1>
-      <p class="fs-4 pe-5">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum error, ducimus, libero sed, itaque quaerat eligendi porro unde nam voluptatum in perspiciatis dolorem! Quidem soluta cum id
-        quibusdam, excepturi vero?
-      </p>
-      <button type="button" class="btn btn-primary btn-lg">Example button</button>
-    </div>
-    <hr class="container" />
-    <div class="container mx-auto row p-3">
-      <div class="col-md-8">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active bg-transparent">
-              <img src="./assets/img/banca 2.png" class="d-block w-100 rounded-3" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>"Cioè la banca è l'emblema..."</h5>
-                <p>Black block</p>
-              </div>
-            </div>
-            <div class="carousel-item bg-transparent">
-              <img src="./assets/img/naples1.jpg" class="d-block w-100 rounded-3" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>"Io a napoli non ci sono mai stato , tantomeno in moto..."</h5>
-                <p>Average veneto</p>
-              </div>
-            </div>
-            <div class="carousel-item bg-transparent">
-              <img src="./assets/img/sindaco.jpg" class="d-block w-100 rounded-3" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>"Sono il sindaco , veda un po' lei..."</h5>
-                <p>Marco Bucci</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <div class="main">
+      <nav class="navbar navbar-expand-lg light--theme dark mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 text-black" href="#">Navbar</a>
+          <img id="logo" class="d-none d-md-inline-block" src="./assets/img/honeycomb.png" alt="logo" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item fs-5">
+                <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-black" href="#">Features</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-black" href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-black" href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-black" href="#"><i class="bi bi-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container p-5 rounded-3 light--theme dark">
+        <h1 class="fs-1 fw-bold">Custom jumbotron</h1>
+        <p class="fs-4 pe-5">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum error, ducimus, libero sed, itaque quaerat eligendi porro unde nam voluptatum in perspiciatis dolorem! Quidem soluta cum id
+          quibusdam, excepturi vero?
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">Example button</button>
+      </div>
+
+      <div class="container mx-auto row p-3">
+        <div class="col-md-8">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active bg-transparent">
+                <img src="./assets/img/banca 2.png" class="d-block w-100 rounded-3" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>"Cioè la banca è l'emblema..."</h5>
+                  <p>Black block</p>
+                </div>
+              </div>
+              <div class="carousel-item bg-transparent">
+                <img src="./assets/img/naples1.jpg" class="d-block w-100 rounded-3" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>"Io a napoli non ci sono mai stato , tantomeno in moto..."</h5>
+                  <p>Average veneto</p>
+                </div>
+              </div>
+              <div class="carousel-item bg-transparent">
+                <img src="./assets/img/sindaco.jpg" class="d-block w-100 rounded-3" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>"Sono il sindaco , veda un po' lei..."</h5>
+                  <p>Marco Bucci</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex flex-column justify-content-center mt-3 mt-md-0 rounded-2 pb-3 pb-md-0 dark light--theme">
+          <h2>Dicono di noi</h2>
+          <p>scopri perche siamo sulla bocca di tutti , non è un caso!</p>
+          <button id="cButton" type="button" class="btn btn-primary btn-sm">Small button</button>
         </div>
       </div>
-      <div class="col-md-4 d-flex flex-column justify-content-center mt-3 mt-md-0 bg-light rounded-2 pb-3 pb-md-0">
-        <h2>Dicono di noi</h2>
-        <p>scopri perche siamo sulla bocca di tutti , non è un caso!</p>
-        <button id="cButton" type="button" class="btn btn-primary btn-sm">Small button</button>
+
+      <div class="container p-3 rounded-2 mb-5 light--theme dark">
+        <h2 class="text-center mb-4">Partners</h2>
+        <p class="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium molestias recusandae voluptatum aliquam qui optio consequatur ducimus sequi.</p>
+        <div class="container row justify-content-around m-0">
+          <div class="col-md-3 mb-3 mb-md-0 text-center partners rounded-2 bg-white">
+            <img class="w-50" src="https://img.freepik.com/free-icon/windows-logo_318-1544.jpg" alt="" />
+            <h5 class="mx-auto">Microsoft</h5>
+            <p></p>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0 text-center partners rounded-2 bg-white">
+            <img class="w-50" src="https://it.wizcase.com/wp-content/uploads/2022/02/en-visual-studio-code-logo.jpg" alt="" />
+            <h5 class="">Vs code</h5>
+            <p></p>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0 text-center partners rounded-2 bg-white">
+            <img class="w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDv9nbeQu9GkHhhoWV_kNuxAJ_SXaokKLl4eN7t2SNJX2fUddzstvdmt-qzFyd4U9cW9s&usqp=CAU" alt="" />
+            <h5 class="mx-auto">Xbox</h5>
+            <p></p>
+          </div>
+        </div>
       </div>
+      <footer class="light--theme dark m-0 p-3 row justify-content-between">
+        <div class="col">
+          <p class="m-0">lorem ipsum</p>
+        </div>
+        <div class="col d-flex flex-column align-items-end">
+          <div id="switch-mode" class="form-check form-switch">
+            <i id="sun" class="bi bi-brightness-high"></i>
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="changeTheme(event)" />
+            <label class="form-check-label" for="flexSwitchCheckDefault"><i class="bi bi-moon"></i></label>
+          </div>
+        </div>
+      </footer>
     </div>
-    <hr class="container" />
-    <div class="container bg-light p-3 rounded-2 mb-3">
-      <h2 class="text-center mb-4">Partners</h2>
-      <p class="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium molestias recusandae voluptatum aliquam qui optio consequatur ducimus sequi.</p>
-      <div class="container row justify-content-around m-0">
-        <div class="col-sm-3 mb-3 mb-sm-0 text-center partners rounded-2 bg-white">
-          <img class="w-50" src="https://img.freepik.com/free-icon/windows-logo_318-1544.jpg" alt="" />
-          <h5 class="mx-auto">Microsoft</h5>
-          <p></p>
-        </div>
-        <div class="col-sm-3 mb-3 mb-sm-0 text-center partners rounded-2 bg-white">
-          <img class="w-50" src="https://it.wizcase.com/wp-content/uploads/2022/02/en-visual-studio-code-logo.jpg" alt="" />
-          <h5 class="">Vs code</h5>
-          <p></p>
-        </div>
-        <div class="col-sm-3 mb-3 mb-sm-0 text-center partners rounded-2 bg-white">
-          <img class="w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDv9nbeQu9GkHhhoWV_kNuxAJ_SXaokKLl4eN7t2SNJX2fUddzstvdmt-qzFyd4U9cW9s&usqp=CAU" alt="" />
-          <h5 class="mx-auto">Xbox</h5>
-          <p></p>
-        </div>
-      </div>
-    </div>
-    <footer class="bg-light m-0 p-3">
-      <p class="m-0">lorem ipsum</p>
-    </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
