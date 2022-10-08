@@ -1,5 +1,7 @@
 let elements = document.querySelectorAll(".dark");
 let buttons = document.querySelectorAll(".btn-darkmode");
+let darkLogo = "./assets/img/bee-hive.png";
+let lightLogo = "./assets/img/bee-hive (1).png";
 function changeTheme(event) {
   for (i = 0; i < elements.length; i++) {
     if (event.target.checked) {

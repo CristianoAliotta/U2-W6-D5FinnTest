@@ -10809,6 +10809,12 @@ h5, .h5 {
 }
 
 #logo {
+  width: 54px;
+  position: absolute;
+  left: 208px;
+}
+
+#darkLogo {
   width: 50px;
   position: absolute;
   left: 210px;
