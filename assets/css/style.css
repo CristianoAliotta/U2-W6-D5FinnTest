@@ -10788,7 +10788,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 h5, .h5 {
   font-size: 1.8rem;
-  color: rgb(255, 191, 0);
+  color: white;
 }
 
 .card-body {
@@ -10837,4 +10837,23 @@ h5, .h5 {
 .light--button {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+
+.animazioneIngresso {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.animazioneIngressoX {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.visibile {
+  opacity: 1;
+  transform: translate(0px);
 }

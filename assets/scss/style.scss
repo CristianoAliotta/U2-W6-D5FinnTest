@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 }
 h5 {
     font-size: 1.8rem;
-    color: $heading;
+    color: white;
 }
 .card-body {
     height: 30%;
@@ -52,3 +52,19 @@ h5 {
 .light--button {
     @include darkBtn(false)
 }
+.animazioneIngresso {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.3s;
+    transition-delay: 0.3s;
+  }
+  .animazioneIngressoX {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: 0.3s;
+    transition-delay: 0.3s;
+  }
+  .visibile {
+    opacity: 1;
+    transform: translate(0px);
+  }
