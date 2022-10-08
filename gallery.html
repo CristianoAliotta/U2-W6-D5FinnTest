@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg light--theme dark mb-5 shadow">
+  <body class="d-flex flex-column justify-content-between">
+    <nav class="navbar navbar-expand-lg light--theme dark mb-4 shadow">
       <div class="container-fluid">
         <a class="navbar-brand fs-2 light--theme dark" href="#">Honeycomb</a>
         <img id="logo" class="d-none d-md-inline-block" src="./assets/img/bee-hive (1).png" alt="logo" />
@@ -20,19 +20,19 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item fs-5">
-              <a class="nav-link light--theme dark" aria-current="page" href="#">Home</a>
+              <a class="nav-link light--theme dark" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item fs-5">
               <a class="nav-link light--theme dark" href="#">Gallery</a>
             </li>
             <li class="nav-item fs-5">
-              <a class="nav-link light--theme dark" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="nav-link light--theme dark" href="https://it-it.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
             </li>
             <li class="nav-item fs-5">
-              <a class="nav-link light--theme dark" href="#"><i class="bi bi-instagram"></i></a>
+              <a class="nav-link light--theme dark" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
             </li>
             <li class="nav-item fs-5">
-              <a class="nav-link light--theme dark" href="#"><i class="bi bi-linkedin"></i></a>
+              <a class="nav-link light--theme dark" href="https://it.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </li>
           </ul>
         </div>
@@ -43,16 +43,28 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+        <div class="carousel-item active rounded-2 shadow overflow-hidden">
+          <img src="./assets/img/gallery1.jpg" class="d-block w-100" alt="apicoltore" />
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+        <div class="carousel-item rounded-2 shadow overflow-hidden">
+          <img src="./assets/img/gallery2.jpg" class="d-block w-100" alt="apicoltore" />
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+        <div class="carousel-item rounded-2 shadow overflow-hidden">
+          <img src="./assets/img/gallery3.jpg" class="d-block w-100" alt="apicoltore" />
+        </div>
+        <div class="carousel-item rounded-2 shadow overflow-hidden">
+          <img src="./assets/img/gallery4.jpg" class="d-block w-100" alt="apicoltore" />
+        </div>
+        <div class="carousel-item rounded-2 shadow overflow-hidden">
+          <img src="./assets/img/gallery6.jpg" class="d-block w-100" alt="apicoltore" />
+        </div>
+        <div class="carousel-item rounded-2 shadow overflow-hidden">
+          <img src="./assets/img/gallery5.jpg" class="d-block w-100" alt="api" />
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -63,6 +75,13 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
+    <div class="container p-5 rounded-3 light--theme dark mb-4 mt-3 shadow">
+      <h1 class="fs-1 fw-bold">L'apicoltore</h1>
+      <p class="fs-4 pe-5">
+        L'apicoltore si occupa di prendersi cura delle famiglie di api che vivono nelle sue arnie, di controllare il loro stato di salute tutto l'anno, di verificare se ci sono nuove api regine e si
+        devono creare nuove famiglie, di raccogliere il miele e gli altri prodotti dell'alveare, di lavorare in laboratorio i prodotti grezzi e di vendere i prodotti finali, spesso al dettaglio.
+      </p>
     </div>
     <footer class="light--theme dark m-0 p-3 row justify-content-between">
       <div class="col">
