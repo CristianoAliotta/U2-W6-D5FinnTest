@@ -46,3 +46,9 @@ h5 {
 .light--theme {
     @include darkMode(false)
 }
+.dark--button {
+    @include darkBtn(true)
+}
+.light--button {
+    @include darkBtn(false)
+}

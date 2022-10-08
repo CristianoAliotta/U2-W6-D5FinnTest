@@ -9,3 +9,14 @@
         color: black;
     }
 }
+@mixin darkBtn($isDark: true) {
+    @if($isDark) {
+        background-color: $heading;
+        color: $primary;
+    
+        
+    } @else {
+        background-color: $primary;
+        color: rgb(255, 255, 255);
+    }
+}
